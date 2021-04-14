@@ -9,6 +9,8 @@
 </form>
 
 <a href="{% url 'dashboard' %}">Back to dashboard</a>
+<a href="{% url 'social:begin' 'github' %}">Login with Github</a>
 <a href="{% url 'password_reset' %}">Reset Password</a>
+<a href="{% url 'register' %}">Register</a>
 
 {% endblock %}
